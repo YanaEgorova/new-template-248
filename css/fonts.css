@@ -1,0 +1,32 @@
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Medium.eot');
+    src: url('../fonts/PlayfairDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay-Medium.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-Medium.woff') format('woff'),
+        url('../fonts/PlayfairDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta';
+    src: url('../fonts/Mukta-Light.eot');
+    src: url('../fonts/Mukta-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Mukta-Light.woff2') format('woff2'),
+        url('../fonts/Mukta-Light.woff') format('woff'),
+        url('../fonts/Mukta-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+
+

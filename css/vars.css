@@ -1,0 +1,24 @@
+:root {
+  --main-bg-color: #fff;
+  --sub-bg-color: #000;
+  --main-text-color: #000;
+  --sub-text-color: #fff;
+  --inactive: #818181;
+  --success: #bee3be;
+  --link-color: blue;
+  --accent-color: #ff0000;
+
+
+  
+  --first-brand-color: #f5ab56;
+  --second-brand-color: #ee6857;
+  --third-brand-color: #36ad7e;
+  --fourth-brand-color: #4ecbf5;
+
+
+
+  --main-font: 'Mukta';
+  --main-title-font: 'Playfair Display';
+
+  font-size: 62.5%;
+}
