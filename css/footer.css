@@ -10,11 +10,11 @@
 .footer__title {
   font-size: 1.8rem;
   text-transform: uppercase;
-  font-family: var(--title-font);
+  font-family: var(--main-title-font);
   margin-bottom: 1rem;
 }
 .footer__item {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 .footer__link {
   font-size: 1.5rem;
@@ -22,7 +22,7 @@
 .footer__logo {
   display: block;
   margin-bottom: 2rem;
-  color: var(--main-text-color)
+  color: var(--main-text-color);
 }
 .footer .text--mb {
   margin-bottom: 1rem;
@@ -55,8 +55,7 @@
   margin-bottom: 2rem;
 }
 
-
-@media screen and (min-width: 1440px)  {
+@media screen and (min-width: 1440px) {
   .footer__top {
     margin-bottom: 0;
   }
@@ -80,45 +79,38 @@
     position: relative;
   }
   .footer__link::after {
-      position: absolute;
-      display: block;
-      content: '';
-      height: .1rem;
-      width: 0;
-      background-color: var(--main-text-color);
-      transition: all 0.3s ease-in-out;
-      bottom: -.5rem;
-      left: 0;
+    position: absolute;
+    display: block;
+    content: '';
+    height: 0.1rem;
+    width: 0;
+    background-color: var(--main-text-color);
+    transition: all 0.3s ease-in-out;
+    bottom: -0.5rem;
+    left: 0;
   }
   .footer__link:hover::after {
-      width: 100%;
+    width: 100%;
   }
- 
-.footer__block--bottom {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  justify-content: space-between;
-}
-.footer__logo, .footer .text--mb {
-  margin: 0;
-}
 
-.footer__block--right .footer__list {
-  display: flex;
-}
+  .footer__block--bottom {
+    text-align: right;
+  }
+  .footer__logo,
+  .footer .text--mb {
+    margin: 0;
+  }
+  .footer-fl {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.footer__block--right .footer__item {
-  margin-bottom: 0;
-}
+  .footer__block--right .footer__item {
+    margin-bottom: 0;
+  }
 
-
-.footer__block--right .footer__list {
-  flex-grow: 1;
-  justify-content: space-between;
-}
-
-
-
-  
+  .footer__block--right .footer__list {
+    flex-grow: 1;
+    justify-content: space-between;
+  }
 }
